@@ -8,7 +8,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        println("Hello World!")
+        println("Hello World! My name is Tatiana")
         makeText(baseContext, "Hello", LENGTH_LONG).show()
     }
 }
